@@ -1,0 +1,47 @@
+{
+  "name": "tyohaarify",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@auth/prisma-adapter": "^2.10.0",
+    "@prisma/client": "^6.16.2",
+    "@types/qrcode": "^1.5.5",
+    "bcryptjs": "^3.0.2",
+    "canvas": "^3.2.0",
+    "framer-motion": "^12.23.22",
+    "html2canvas": "^1.4.1",
+    "jsonwebtoken": "^9.0.2",
+    "jspdf": "^3.0.3",
+    "lucide-react": "^0.544.0",
+    "multer": "^2.0.2",
+    "next": "15.5.4",
+    "next-auth": "^4.24.11",
+    "openai": "^5.23.0",
+    "prisma": "^6.16.2",
+    "qrcode": "^1.5.4",
+    "react": "^18.3.1",
+    "react-colorful": "^5.6.1",
+    "react-dom": "^18.3.1",
+    "react-dropzone": "^14.3.8",
+    "recharts": "^3.2.1",
+    "sharp": "^0.34.4",
+    "uuid": "^13.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.7",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^9.17.0",
+    "eslint-config-next": "15.5.4",
+    "postcss": "^8.5.1",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.7.2"
+  }
+}
